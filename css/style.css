@@ -1,0 +1,311 @@
+.inv{
+	display:none;
+}
+.vis{
+	display:static;
+}
+header{
+	position: sticky;
+	background-color: #2b2b2b;
+	position: sticky;
+  	top: 0;
+  	border: 2px solid white;
+  	text-align: center;
+  	padding-right:10%; 
+  	padding-left:10%;
+}
+h1{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+body{
+	background-color:black;
+	border-style:solid;
+	border-color:white;
+	margin-left:73px;
+	margin-right:73px; 
+}
+footer{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+button{
+	width:350px;
+	height:50px; 
+	border-size:5px;
+	border-style:solid;
+	border-color:#ffffff;
+	border-radius: 30px	30px 30px 30px;
+	background-color:#2b2b2b;
+	color:white;
+}
+#mainmenu button{
+	margin-left: 35%;
+	margin-top: 25px;
+}
+#mainmenu button:hover{
+	 box-shadow: 0 2px 13px 0 white;
+	 cursor:pointer;
+	 animation: btn-animation-menu 0.5s ease-out forwards;
+}
+@keyframes btn-animation-menu{
+	0%{
+		background-color:gray;
+	}
+	50%{
+		background-color:gray;
+	}
+	100%{
+		background-color:green;
+	}
+}
+@keyframes btn-animation-class{
+	0%{
+		background-color:gray;
+	}
+	50%{
+		background-color:gray;
+	}
+	100%{
+		background-color:black;
+	}
+}
+#heroclass button{
+	margin-left: 35%;
+	font-size: 25px;
+}
+#heroclass button:hover{
+	animation: btn-animation-class 0.5s ease-in-out forwards;
+	cursor:pointer;
+	box-shadow: 0 2px 13px 0 white;
+}
+#btnBackClass button{
+	cursor:pointer;
+	margin-left:70%;
+}
+#freya{
+	margin-left:45%;
+	border-radius:55px 55px 55px 55px;
+	overflow: hidden;
+}
+#freya-fig{
+	margin-left:48.5%;
+}
+#build-freya{
+	/* Group 1 */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+
+
+
+/* Desktop - 1 */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1440px;
+height: 208px;
+left: 0px;
+top: 0px;
+
+background: #868282;
+
+
+/* freya-img 1 */
+
+position: absolute;
+width: 282px;
+height: 282px;
+left: 584px;
+top: 0px;
+
+background: url(freya-img.jpg);
+border-radius: 141px;
+
+
+/* Freya */
+
+position: absolute;
+width: 145px;
+height: 67px;
+left: 652px;
+top: 290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 67px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* fighter-emblem 1 */
+
+position: absolute;
+width: 85px;
+height: 86px;
+left: 39px;
+top: 387px;
+
+background: url(fighter-emblem.jpg);
+border-radius: 300px;
+
+
+/* Soldado */
+
+position: absolute;
+width: 216px;
+height: 67px;
+left: 139px;
+top: 404px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* map 1 */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 39px;
+top: 240px;
+
+background: url(map.jpg);
+border-radius: 31px;
+
+
+/* Jungler/xp laner */
+
+position: absolute;
+width: 362px;
+height: 63px;
+left: 115px;
+top: 267px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Feitiços: */
+
+position: absolute;
+width: 200px;
+height: 61px;
+left: 1070px;
+top: 245px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* all-speels (2) 1 */
+
+position: absolute;
+width: 87px;
+height: 87px;
+left: 1178px;
+top: 318px;
+
+background: url(all-speels (2).jpg);
+border-radius: 29.75px;
+
+
+/* all-speels (4) 1 */
+
+position: absolute;
+width: 86px;
+height: 87px;
+left: 1117px;
+top: 318px;
+
+background: url(all-speels (4).jpg);
+border-radius: 31.5px;
+
+
+/* all-speels (3) 1 */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 1053px;
+top: 316px;
+
+background: url(all-speels (3).jpg);
+border-radius: 29.75px;
+
+
+/* build-freya 1 */
+
+position: absolute;
+width: 989px;
+height: 121px;
+left: 226px;
+top: 678px;
+
+background: url(build-freya.png);
+
+
+/* Build recomendada: */
+
+position: absolute;
+width: 513px;
+height: 81px;
+left: 468px;
+top: 567px;
+
+font-family: 'IM FELL DW Pica';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 81px;
+
+color: #FFFFFF;
+
+
+}
